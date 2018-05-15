@@ -13,7 +13,6 @@ public class WestminsterCarParkManager extends Vehicle implements CarParkManager
 	
 	Scanner sc = new Scanner(System.in);
 	
-	
 	ArrayList<Vehicle> al= new ArrayList<Vehicle>();
 	ArrayList<Vehicle> alview= new ArrayList<Vehicle>();
 	int NumOfVehicles = 0;
@@ -308,7 +307,7 @@ public class WestminsterCarParkManager extends Vehicle implements CarParkManager
 			charge = (parkedTime/(60*24))*30;
 		}
 		
-		System.out.println("\nCharging for the time is = "+charge+"£");
+		System.out.println("\nCharging for the time is = "+charge+"Â£");
 	}
 	public void close() {
 		System.out.println("Thank You For Using The Car Park Sysetm !!" );
